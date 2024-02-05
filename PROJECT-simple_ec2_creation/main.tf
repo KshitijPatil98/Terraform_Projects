@@ -1,3 +1,6 @@
+/*Here we dont have terraform.tfvars for this project because we are creating a module. This module is 
+used in another project which has a tfvars file*/
+
 provider "aws" {
     region = "us-east-1"
 }
